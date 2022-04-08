@@ -1,9 +1,10 @@
-﻿@page "/poolstatus"
+﻿@page "/poolowner"
 
-<PageTitle>Pool Status</PageTitle>
+<PageTitle>PoolOwner</PageTitle>
 
 <h1 role="status">The Pool is: @poolStatus</h1>
 
+<button class="btn btn-primary" @onclick="TogglePoolStatus">Click me</button>
 
 @code {
     private string poolStatus = "Closed";

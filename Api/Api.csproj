@@ -17,6 +17,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
